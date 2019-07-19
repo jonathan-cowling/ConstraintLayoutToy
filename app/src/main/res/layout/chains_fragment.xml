@@ -60,7 +60,6 @@
         android:src="@android:color/holo_blue_dark"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -182,7 +181,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="When a set of views are mutually constrained to each other (and the ends constrained to an other view) they automatically form a chain. There are 3 types of chain: spread, spread-inside, and packed; these correspond to how space is distributed (see above). Views with match constraint automatically fill extra space (multiple views spreas extra space evenly by default)."
+        android:text="When a set of views are mutually constrained to each other (and the ends constrained to an other view) they automatically form a chain. There are 3 types of chain: spread, spread-inside, and packed; these correspond to how space is distributed (see above). Views with match constraint automatically fill extra space (multiple views spreas extra space evenly by default).\nAll items in a chain can have different biases in the cross axis (the axis that isn't in the direction of the chain), items in a packed chain can also have a bias in the primary axis (only the head of the chain's bias is counted, and they will all have the same bias)."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

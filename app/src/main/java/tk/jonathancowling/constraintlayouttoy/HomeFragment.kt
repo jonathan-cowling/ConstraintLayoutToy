@@ -22,13 +22,14 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.button.setOnClickListener {  }
+        view.button.setOnClickListener { launch(WeightedExample()) }
         view.button2.setOnClickListener { launch(ChainsExample()) }
-        view.button3.setOnClickListener {  }
+        view.button3.setOnClickListener { launch(MinMaxExample()) }
         view.button4.setOnClickListener { launch(SimpleExample()) }
         view.button5.setOnClickListener { launch(GuidelinesExample()) }
         view.button6.setOnClickListener { launch(BarrierExample()) }
-        view.button7.setOnClickListener {  }
+        view.button7.setOnClickListener { launch(CirclesExample()) }
+        view.button8.setOnClickListener { launch(AutosizingText()) }
     }
 
     private fun launch(frag: Fragment) {
